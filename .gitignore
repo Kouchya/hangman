@@ -1,0 +1,5 @@
+/build
+/dist
+build.py
+*.pyc
+*.exe
