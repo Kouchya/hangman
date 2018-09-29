@@ -1,6 +1,11 @@
 from socket import *
 import random
 import signal
+import sys
+
+def do_exit():
+	print('Exit...')
+	sys.exit(0)
 
 signal.signal(signal.SIGINT, do_exit)
 
